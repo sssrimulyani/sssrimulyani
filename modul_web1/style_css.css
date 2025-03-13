@@ -1,0 +1,33 @@
+/*pseduo class link*/
+.hello:link{
+    color :maroon;
+}
+.hello:hover{
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+}
+.hello:active{
+    font-style: italic;
+}
+.hello:visited {
+    color: pink;
+} 
+li:first-child a{
+    color:crimson;
+}
+li:last-child a{
+    color:crimson;
+}
+li:nth-child(even) a{
+    color:crimson;
+}
+li:nth-child(odd) a{
+    color:blueviolet;
+}
+p:first-of-type {
+    color: red;
+}
+p:last-of-type {
+    color:cornflowerblue;
+}
